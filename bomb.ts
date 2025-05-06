@@ -1,7 +1,7 @@
 import { serve } from "bun";
 import { file } from "bun";
 
-const PORT = 3000;
+const PORT = Number.parseInt(process.env.PORT || "3000");
 const ZIP_FILE_PATH = "./bigboy.gz"; // Path to your compressed file
 
 serve({
