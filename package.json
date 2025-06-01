@@ -9,6 +9,8 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@cap.js/middleware-elysia": "^0.0.1",
+    "elysia": "^1.3.3",
     "terser": "^5.39.0"
   }
 }
